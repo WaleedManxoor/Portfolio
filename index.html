@@ -4,23 +4,62 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
+    <style>
+        #A1, #A2 {
+            text-align: center;
+        }
+        .Table {
+            margin-left: auto;
+            margin-right: auto;
+        }
+        nav{
+            padding: 10px 10px 10px 10px;
+            background-color: rgb(202, 169, 169);
+        }
+        nav a {
+            color: black;
+            text-decoration: none; 
+            padding: 10px;
+        }
+        footer{
+            text-align: center; 
+            background-color: rgb(202, 169, 169);
+            padding: 5px 5px 5px 5px;
+        }
+    </style>
 </head>
 <body>
-    <a href="./project/index.html" style="padding: 2%;"><b>Projects</b></a>
-    <a href="./skils/index.html" style="padding: 2%;"><b>Skills</b></a>
-    <a href="./team/index.html" style="padding: 2%;"><b>Team</b></a>
-    <a href="./contact/index.html" style="padding: 2%;" ><b>Contact</b></a>
-    <a href="./feedback/index.html" style="padding: 2%;"><b>Feedback</b></a>
-    <hr>
+    <header>
+        <nav>
+            <a href="./project/index.html" style="padding: 2%;"><b>Projects</b></a>
+            <a href="./skils/index.html" style="padding: 2%;"><b>Skills</b></a>
+            <a href="./team/index.html" style="padding: 2%;"><b>Team</b></a>
+            <a href="./contact/index.html" style="padding: 2%;" ><b>Contact</b></a>
+        </nav>
+    </header>
     <h1>Portfollio</h1>
+    <article id="A1" >
+        <figure>
     <img src="./img/img.jpg" alt="Waleed Manzoor" width="300">
-    <p>This is <b>WaleedManxoor</b>.</p>
-    <h2>Repository</h2>
-    <a href="https://github.com/WaleedManxoor" target="_blank"><b><img src="./img/github_icon.gif" alt="github"></b></a> 
+    <figcaption>This is <b>WaleedManxoor</b>.</figcaption>
+    <audio src="https://icons8.com/music/track/soft-piano--inod" controls autoplay>WaleedManxoor</audio>
+    </figure>
+    
+    </article>
     <br>
     <br>
 
-    <table border="1" style="padding: 2%;">
+    <article id="A2" >
+        <figure>
+    <figcaption><b>Repository</b></figcaption>
+    <a href="https://github.com/WaleedManxoor" target="_blank"><b><img src="./img/github_icon.gif" alt="github"></b></a> 
+    </figure>
+    </article>
+    <br>
+    <br>
+
+    <section>
+    <table border="1" class="Table" style="padding: 2%;">
         <tr><th colspan="5">Education</th></tr>
         <tr>
             <th>Institute</th>
@@ -57,8 +96,20 @@
             <td>86.6%</td>
             <td>BISEP</td>
         </tr>
+        <tr>
+            <th>CUSIT</th>
+            <td>BS-CS</td>
+            <td colspan="3" style="text-align: center;">4th year</td>
+        </tr>
 
     </table>
+
+</section>
+<br><br><br>
+
+<footer >
+    <p >All Rights Reserved &copy; Portfolio By Waleed Manxoor.</p>
+</footer>
 
 </body>
 </html>
