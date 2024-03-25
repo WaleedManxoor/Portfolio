@@ -1,0 +1,46 @@
+#A1, #A2 {
+    text-align: center;
+}
+#speaker{
+    position: absolute;
+    display: inline-block;
+}
+.Table {
+    margin-left: auto;
+    margin-right: auto;
+}
+nav{
+    padding: 10px 10px 10px 10px;
+    background-color: rgb(202, 169, 169);
+}
+nav a {
+    color: black;
+    text-decoration: none; 
+    padding: 10px;
+}
+footer{
+    text-align: center; 
+    background-color: rgb(202, 169, 169);
+    padding: 5px 5px 5px 5px;
+}      
+#H1{
+    text-align: center;
+    padding: 10px 10px;
+}
+input {
+    padding: 8px;
+    box-sizing: border-box;
+}
+select {
+    padding: 8px;
+    box-sizing: border-box;
+}
+button{
+    padding: 10px 15px; 
+    font-size: 16px; 
+    background-color: rgb(202, 169, 169); 
+    color: white; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer;
+}

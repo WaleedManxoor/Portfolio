@@ -3,30 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
     <title>Home</title>
-    <style>
-        #A1, #A2 {
-            text-align: center;
-        }
-        .Table {
-            margin-left: auto;
-            margin-right: auto;
-        }
-        nav{
-            padding: 10px 10px 10px 10px;
-            background-color: rgb(202, 169, 169);
-        }
-        nav a {
-            color: black;
-            text-decoration: none; 
-            padding: 10px;
-        }
-        footer{
-            text-align: center; 
-            background-color: rgb(202, 169, 169);
-            padding: 5px 5px 5px 5px;
-        }
-    </style>
 </head>
 <body>
     <header>
@@ -41,7 +19,7 @@
     <article id="A1" >
         <figure>
     <img src="./img/img.jpg" alt="Waleed Manzoor" width="300">
-    <figcaption>This is <b>WaleedManxoor</b>.</figcaption>
+    <figcaption><h2>This is <b>WaleedManxoor</b>&nbsp;<img id="speaker" src="./img/Audio.png" alt="Audio"></h2></figcaption>
     </figure>
     
     </article>
@@ -109,6 +87,14 @@
 <footer >
     <p >All Rights Reserved &copy; Portfolio By Waleed Manxoor.</p>
 </footer>
+
+<script>
+    var audio = new Audio("./audio/WM.mp3");
+    function playAudio() {
+        audio.play();
+    }
+    document.getElementById("speaker").addEventListener("click", playAudio);
+</script>
 
 </body>
 </html>
